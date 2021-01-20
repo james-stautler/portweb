@@ -7,6 +7,9 @@
 }
 
 .main {
+    background-image: url("/assets/mountainman.jpg");
+    background-size: cover;
+    opacity: 0;
     position: relative;
     height: 100vh;
     width: 100%;
@@ -25,7 +28,7 @@
 section {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vh;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -53,16 +56,6 @@ section {
     top: 85vh;
 }
 
-.button2 {
-    position: absolute;
-    top: 185vh;
-}
-
-.button3 {
-    position: absolute;
-    top: 285vh;
-}
-
 .arrow:hover {
     border-width: 0 5px 5px 0;
 }
@@ -81,32 +74,6 @@ section {
     top: -20vh;
 }
 
-.placeholder1 {
-    position: relative;
-    font-size: 40px;
-    left: -50vh;
-}
-
-.heading2 {
-    position: relative;
-    font-size: 60px;
-    left: -50vh;
-    top: -30vh;
-}
-
 #about {
-    background-color: #DE354C;
-}
-
-#projects {
-    background-color: #3c1874;
-}
-
-#resume {
-    background-color: #283747;
-}
-
-img {
-    height: 50px;
-    width: 50px;
+    background-color: white;
 }
