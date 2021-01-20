@@ -60,18 +60,29 @@ section {
     border-width: 0 5px 5px 0;
 }
 
-.heading1 {
-    position: relative;
+.heading {
+    position: absolute;
     font-size: 60px;
-    left: 50vh;
-    top: -30vh;
+    left: 70vh;
+    top: 100vh;
 }
 
-.information1 {
+.information {
     position: relative;
-    font-size: 30px;
-    left: 50vh;
-    top: -20vh;
+}
+
+ul li {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+}
+
+.selection a {
+    font-size: 60px;
+    padding-bottom: 40px;
+    font-style: italic;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 #about {
