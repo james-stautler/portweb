@@ -72,23 +72,26 @@ ul li {
 }
 
 .selection a {
-    font-size: 60px;
-    padding-bottom: 40px;
-    font-style: italic;
+    font-size: 70px;
+    padding-bottom: 0px;
+    font-style: none;
     font-family: 'Rubik Mono One', sans-serif;
-    color: white;
+    color: #f8f8ff;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
     text-align: center;
+    position: relative;
+    left: -80%;
 }
 
 .selection a:hover {
     cursor: pointer;
-    font-size: 70px;
-    color: red;
+    color: #A8A8FF;
     transition-duration: 300ms;
-    margin: -10px;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 #about {
-    background-color: white;
+    background-image: url("assets/background.png");
+    width: 100%;
 }
